@@ -1,22 +1,22 @@
-#Documentation generator for C/C++
+# Documentation generator for C/C++
 
 A python script which can be used for generating a html documentation for the comments in your code.
 
-##Features
+## Features
 
 - Custom pointer, end of linked list notation,
 - Static notation,
 - Doxygen-like commenting,
 - Comes with English and Hungarian example config.
 
-##Usage
+## Usage
 
 The script only picks up these comments:
 - `//? Is defining what the file content is used for.`
 - `//- Is struct documentation`
 - `//! Is function/method documentation`
 
-###Configurable values
+### Configurable values
 
 - `def_value_label`="<b>(Default value)</b>"
 - `def_ret_label`="<b>Returns:</b>"
